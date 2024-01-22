@@ -2,6 +2,11 @@
 
 Data modules for PyTorch 🔥.
 
+
+## Usage
+
+Define a datamodule.
+
 ```python
 from datamodules import datamodule
 
@@ -14,4 +19,13 @@ class Autoencoder(datamodule):
         x = self.decoder(x)
 
         return x
+```
+
+Initialize it.
+
+```python
+autoencoder = Autoencoder(
+    encoder=Encoder(...),
+    decoder=Decoder(...),
+)
 ```
