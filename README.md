@@ -1,4 +1,4 @@
-# Data Modules
+# datamodules
 
 Data modules for PyTorch.
 
