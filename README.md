@@ -2,6 +2,11 @@
 
 Data modules for PyTorch 🔥.
 
+## Installation
+
+```python
+pip install git+https://github.com/oelin/datamodules
+```
 
 ## Usage
 
