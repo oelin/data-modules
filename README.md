@@ -1,6 +1,6 @@
 # datamodules
 
-Data modules for PyTorch.
+Data modules for PyTorch 🔥.
 
 ```python
 from datamodules import datamodule
@@ -15,4 +15,3 @@ class Autoencoder(datamodule):
 
         return x
 ```
-
